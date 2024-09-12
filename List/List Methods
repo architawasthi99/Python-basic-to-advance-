@@ -1,0 +1,9 @@
+data=[12,13,14,55,66,77,332555,8985.8547,6567845,968]
+data.append(11)
+print(data)
+data.sort()
+print(data)
+data.sort(reverse=True)
+print(data)
+data.insert(3,55.6)
+print(data)
