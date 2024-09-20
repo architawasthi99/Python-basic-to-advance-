@@ -1,0 +1,10 @@
+fruits={"apple","mango","papaya","vodka"}
+fruits.add("milk")
+print(fruits)
+fruits.remove("apple")
+print(fruits)
+fruits.pop()
+print(fruits)
+fruits.clear()
+print(fruits)
+print(type(fruits))
