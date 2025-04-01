@@ -1,0 +1,53 @@
+# FUNCTIONS
+def sum(a,b):
+    sum=a+b
+    print(sum)
+    return sum
+sum(2,3)
+sum(15,5)
+sum(9,1)
+
+#Q-} AVERAGE OF 3 NUMBERS
+def avg(a,b,c):
+    average=(a+b+c)/3
+    print(average)
+    return avg
+avg(2,3,8)
+
+#Q-} WAF TO PRINT LENGTH OF THE LIST
+def up(list):
+    print(len(list))
+    return len(list)
+list=[12,3,45,67,44]
+up(list)
+
+#Q-} WAF TO PRINT ELEMENTS OF LIST IN THE SINGLE LINE
+def listing(list):
+    print(list,end=" ")
+    return listing
+list=[1,2,3,4,5,6,7]
+listing(list)
+print("\n")
+
+#FIND FACTORIAL OF N NUMBERS
+def factorial(n):
+    i=1
+    fact=1
+    while i<=n:
+        if(i<=n):
+            fact=fact*i
+            i+=1
+    print(fact)
+    return factorial
+factorial(5) 
+
+#WAF TO CONVERT USD INTO INR
+def conversion(usd_amount):
+    if(usd_amount==0):
+        print("NULL")
+    else:
+        inr=usd_amount*86
+        print(inr)
+        return conversion
+conversion(100)
+                   
